@@ -9,15 +9,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 </head>
 <body>
-    <div class="top-nav">
-        <div class="dropdown">
-            <button class="dropdown-btn"><i class="fas fa-bars"></i></button>
-            <div class="dropdown-content">
-                <a href="index.html">Home</a>
-                <a href="data/cv.pdf" target="_blank">CV</a>
-            </div>
-        </div>
-    </div>
     <div class="container">
         <!-- Header Section -->
         <header class="header">
@@ -33,7 +24,7 @@
                         <a href="https://scholar.google.com/citations?user=yC1uBW8AAAAJ&hl=en" aria-label="Google Scholar" target="_blank"><i class="ai ai-google-scholar"></i></a>
                         <a href="https://github.com/temuulenkh" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/temuulen-khishigsuren-72345634/" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="data/cv.pdf" aria-label="CV" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                        <a href="data/cv.pdf" aria-label="CV" target="_blank" class="cv-link">CV</a>
                     </div>
                 </div>
             </div>
@@ -107,16 +98,5 @@
 
         </section>
     </div>
-<script>
-    const btn = document.querySelector('.dropdown-btn');
-    const content = document.querySelector('.dropdown-content');
-    btn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        content.classList.toggle('open');
-    });
-    document.addEventListener('click', function() {
-        content.classList.remove('open');
-    });
-</script>
 </body>
 </html>
