@@ -120,17 +120,13 @@ body {
 }
 
 .social-links .cv-link {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
-    color: #000;
-    border: 1px solid #000;
-    border-radius: 4px;
-    padding: 2px 8px;
+    color: #333;
 }
 
 .social-links .cv-link:hover {
     color: #0066cc;
-    border-color: #0066cc;
 }
 
 /* Section Styles */
