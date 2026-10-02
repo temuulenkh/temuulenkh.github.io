@@ -104,7 +104,7 @@ body {
 .social-links {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     margin-top: 10px;
 }
 
@@ -112,11 +112,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 36px;
-    height: 36px;
-    background: #000;
+    width: 30px;
+    height: 30px;
+    background: #3a3a3a;
     color: #fff;
-    border-radius: 9px;
+    border-radius: 8px;
     font-size: 18px;
     text-decoration: none;
     transition: background 0.2s;
@@ -127,7 +127,7 @@ body {
 }
 
 .social-links a:hover {
-    background: #333;
+    background: #555;
 }
 
 .social-links .cv-link {
